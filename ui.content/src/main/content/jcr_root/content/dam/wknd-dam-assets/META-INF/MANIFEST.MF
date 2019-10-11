@@ -1,0 +1,5 @@
+Manifest-Version: 1.0
+Content-Package-Roots: /content/dam/wknd/en
+Content-Package-Type: content
+Content-Package-Id: com.adobe.aem.guides:wknd-dam-assets
+

@@ -51,6 +51,7 @@
             <!-- ====================================================================== -->
             <!-- V A U L T   P A C K A G E   P L U G I N S                              -->
             <!-- ====================================================================== -->
+
             <plugin>
                 <groupId>org.apache.jackrabbit</groupId>
                 <artifactId>filevault-package-maven-plugin</artifactId>
@@ -119,6 +120,12 @@
         <dependency>
             <groupId>com.adobe.cq</groupId>
             <artifactId>core.wcm.components.examples</artifactId>
+            <type>zip</type>
+        </dependency>
+        <!-- コンテンツフラグメントコンポーネント -->
+        <dependency>
+            <groupId>com.adobe.cq</groupId>
+            <artifactId>core.wcm.components.extension</artifactId>
             <type>zip</type>
         </dependency>
         <dependency>
